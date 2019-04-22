@@ -196,6 +196,21 @@ application/vnd.oasis.opendocument.spreadsheet-flat-xml; libreoffice %s; test=te
 application/vnd.oasis.opendocument.graphics-flat-xml; libreoffice %s; test=test -n "$DISPLAY"
 application/vnd.oasis.opendocument.presentation-flat-xml; libreoffice %s; test=test -n "$DISPLAY"
 x-content/unix-software; nautilus-autorun-software %s; test=test -n "$DISPLAY"
+text/english; nvim %s; needsterminal
+text/plain; nvim %s; needsterminal
+text/x-makefile; nvim %s; needsterminal
+text/x-c++hdr; nvim %s; needsterminal
+text/x-c++src; nvim %s; needsterminal
+text/x-chdr; nvim %s; needsterminal
+text/x-csrc; nvim %s; needsterminal
+text/x-java; nvim %s; needsterminal
+text/x-moc; nvim %s; needsterminal
+text/x-pascal; nvim %s; needsterminal
+text/x-tcl; nvim %s; needsterminal
+text/x-tex; nvim %s; needsterminal
+application/x-shellscript; nvim %s; needsterminal
+text/x-c; nvim %s; needsterminal
+text/x-c++; nvim %s; needsterminal
 inode/directory; baobab %s; test=test -n "$DISPLAY"
 application/pdf; evince %s; test=test -n "$DISPLAY"
 application/x-bzpdf; evince %s; test=test -n "$DISPLAY"
