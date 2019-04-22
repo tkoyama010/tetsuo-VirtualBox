@@ -68,6 +68,11 @@ application/x-bittorrent; transmission-gtk %s; description="GTK-based BitTorrent
 text/plain; more %s; needsterminal
 text/x-apport; /usr/share/apport/apport-gtk -c %s; test=test -n "$DISPLAY"
 x-scheme-handler/apt; apturl %s; test=test -n "$DISPLAY"
+text/html; chromium-browser --temp-profile %s; test=test -n "$DISPLAY"
+text/xml; chromium-browser --temp-profile %s; test=test -n "$DISPLAY"
+application/xhtml_xml; chromium-browser --temp-profile %s; test=test -n "$DISPLAY"
+x-scheme-handler/http; chromium-browser --temp-profile %s; test=test -n "$DISPLAY"
+x-scheme-handler/https; chromium-browser --temp-profile %s; test=test -n "$DISPLAY"
 image/bmp; eog %s; test=test -n "$DISPLAY"
 image/gif; eog %s; test=test -n "$DISPLAY"
 image/jpeg; eog %s; test=test -n "$DISPLAY"
