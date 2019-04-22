@@ -67,3 +67,4 @@ pulse-access:!::
 gdm:!::
 tetsuo:!::
 sambashare:!::tetsuo
+systemd-coredump:!!::

@@ -41,3 +41,4 @@ pulse:x:121:126:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
 gnome-initial-setup:x:122:65534::/run/gnome-initial-setup/:/bin/false
 gdm:x:123:128:Gnome Display Manager:/var/lib/gdm3:/bin/false
 tetsuo:x:1000:1000:Tetsuo Koyama,,,:/home/tetsuo:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/sbin/nologin

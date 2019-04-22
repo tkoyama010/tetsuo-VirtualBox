@@ -68,3 +68,4 @@ gdm:x:128:
 tetsuo:x:1000:
 sambashare:x:129:tetsuo
 systemd-coredump:x:999:
+vboxsf:x:998:
